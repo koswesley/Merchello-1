@@ -1,0 +1,6 @@
+﻿               {
+	javascript : [
+		'~/App_Plugins/Merchello.Other/merchello.other.shippingmethod.controller.js',
+		'~/App_Plugins/Merchello.Other/merchello.other.controller.js'
+	]
+}

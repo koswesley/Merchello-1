@@ -8,7 +8,8 @@ namespace Merchello.Plugin.Payments.PurchaseOrder.Models
         {
             return new ProcessorArgumentCollection()
             {
-                { "purchaseOrderNumber", purchaseOrder.PurchaseOrderNumber }
+                { "purchaseOrderNumber", purchaseOrder.PurchaseOrderNumber },
+                { "purchaseOrderComments", purchaseOrder.PurchaseOrderComments }
             };
         }
 
@@ -16,7 +17,8 @@ namespace Merchello.Plugin.Payments.PurchaseOrder.Models
         {
             return new PurchaseOrderFormData()
             {
-                PurchaseOrderNumber = args.ArgValue("purchaseOrderNumber")
+                PurchaseOrderNumber = args.ArgValue("purchaseOrderNumber"),
+                PurchaseOrderComments = args.ArgValue("purchaseOrderComments")
             };
         }
 

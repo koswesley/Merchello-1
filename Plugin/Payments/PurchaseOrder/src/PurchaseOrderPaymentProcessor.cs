@@ -41,7 +41,8 @@ namespace Merchello.Plugin.Payments.PurchaseOrder
                 return new PaymentResult(Attempt<IPayment>.Fail(payment, new Exception(string.Format("Error Purchase Order Number is empty"))), invoice, false);
             }
 
-            invoice.PoNumber = purchaseOrder.PurchaseOrderNumber;         
+            invoice.PoNumber = purchaseOrder.PurchaseOrderNumber;
+            payment.ExtendedData.SetValue(Constants.ExtendedDataKeys.PurchaseOrderComments, purchaseOrder.PurchaseOrderComments);
             payment.Authorized = true;
             return new PaymentResult(Attempt<IPayment>.Succeed(payment), invoice, true);
         }

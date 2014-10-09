@@ -21,12 +21,12 @@ namespace Merchello.Plugin.Payments.PurchaseOrder
             /// <summary>
             /// The purchase order number prefix.
             /// </summary>
-            public static string PurchaseOrderNumber = "purchaseOrderNumber"; 
+            public static string PurchaseOrderNumber = "purchaseOrderNumber";
 
             /// <summary>
-            /// The purchase order number prefix.
+            /// The purchase order comment.
             /// </summary>
-            public static string PurchaseOrderNumberPrefix = "purchaseOrderNumberPrefix";
+            public static string PurchaseOrderComments = "purchaseOrderComments"; 
 
             /// <summary>
             /// The authorization result.

@@ -2,6 +2,5 @@
 {
     public class PurchaseOrderProcessorSettings            
     {                                       
-        public string PurchaseOrderNumberPrefix { get; set; }     
     }
 }

@@ -5,6 +5,11 @@
         /// <summary>
         /// The Purchase Orders Invoice Number.  
         /// </summary>
-        public string PurchaseOrderNumber { get; set; }
+        public string PurchaseOrderNumber { get; set; }               
+        
+        /// <summary>
+        /// The Purchase Orders Invoice Number.  
+        /// </summary>
+        public string PurchaseOrderComments { get; set; }
     }
 }

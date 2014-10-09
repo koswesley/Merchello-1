@@ -76,6 +76,7 @@
     <Folder Include="App_Plugins\Merchello\Views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\Merchello\Backoffice\Merchello\OrderFullList.html" />
     <Content Include="App_Plugins\Merchello\Backoffice\Merchello\OrderCustomer.html" />
     <Content Include="App_Plugins\Merchello\Backoffice\Merchello\OrderFulfillment.html" />
     <Content Include="App_Plugins\Merchello\Backoffice\Merchello\ProductCreateActionMenu.html" />
@@ -332,6 +333,8 @@
     <Content Include="App_Plugins\Merchello\Modules\Order\Directives\ordercreate.directives.js" />
     <Content Include="App_Plugins\Merchello\Modules\Order\merchello.audit.models.js" />
     <Content Include="App_Plugins\Merchello\Modules\Order\merchello.audit.service.js" />
+    <Content Include="App_Plugins\Merchello\Modules\Order\order.fulllist.controller.js" />
+    <Content Include="App_Plugins\Merchello\Modules\Report\reports.service.js" />
     <Content Include="App_Plugins\Merchello\Modules\Settings\Notifications\Dialogs\notificationsmessage.controller.js" />
     <Content Include="App_Plugins\Merchello\Modules\Settings\Notifications\Dialogs\notificationsmessage.html" />
     <Content Include="App_Plugins\Merchello\Modules\Settings\Notifications\Dialogs\notificationsdelete.controller.js" />
